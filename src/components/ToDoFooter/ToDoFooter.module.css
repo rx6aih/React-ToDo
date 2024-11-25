@@ -1,0 +1,41 @@
+.footer{
+    font-family: "DejaVu Sans";
+    min-width: 580px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+.dark{
+    transition: 0.5s;
+    background: hsl(235, 24%, 19%)
+}
+.light{
+    transition: 0.5s;
+    background-color: hsl(0, 0%, 100%)
+}
+.tasksLeft{
+    color:lightslategrey;
+    font-size: 14px;
+    font-size: 900;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+}
+.container button{
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    font-weight: 800;
+    cursor: pointer;
+}
+.dark .container button{
+    color:lightslategrey;
+}
+.light .container button{
+    color:black;
+}

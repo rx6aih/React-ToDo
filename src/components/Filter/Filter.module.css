@@ -1,0 +1,21 @@
+.filter{
+    display: flex;
+}
+.filter button{
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+.dark button:hover{
+    transition: 0.3s;
+    color:white;
+}
+.light button:hover{
+    transition: 0.3s;
+    color:grey;
+}
+
+.active{
+    color: #5050e6 !important;
+}

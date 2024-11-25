@@ -1,4 +1,5 @@
 import {useMemo} from 'react';
+import allStorage from "../Utils/AllStorage";
 
 export const useLeft = (tasks) => {
     const tasksLeft = useMemo(() =>{
@@ -7,7 +8,6 @@ export const useLeft = (tasks) => {
             if(tasks[i].isDone === false)
                 count++;
         }
-        console.log(count);
         return count;
     },[tasks]);
     return tasksLeft;

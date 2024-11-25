@@ -1,0 +1,35 @@
+.container {
+    z-index: 1;
+    display: flex;
+    margin-top: 2.8em;
+    margin-bottom: 1.5em;
+    border-radius: 4px;
+    min-width: 580px;
+    height: 70px;
+    background: transparent;
+    align-items: center;
+}
+.container input {
+    background: transparent;
+    margin-left: 30px;
+    font-size: 18px;
+    font-family: "DejaVu Sans";
+    border: none;
+    width: 100%;
+    height: 60px;
+}
+.dark input{
+    color:white;
+}
+.light input{
+    color: #575757;
+}
+.dark{
+    background: hsl(235, 24%, 19%)
+}
+.light{
+    background-color: hsl(0, 0%, 100%)
+}
+.container input:focus{
+    outline: none;
+}

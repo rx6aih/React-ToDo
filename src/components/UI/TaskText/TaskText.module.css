@@ -2,12 +2,11 @@
     display: flex;
     width: 80%;
     height: 20px;
-    align-items:start;
-    justify-content: center;
     margin-left: 20px;
     background: transparent;
+    align-items: center;
 }
-.container input {
+.container p {
     background: transparent;
     font-size: 18px;
     font-family: "DejaVu Sans";
@@ -15,9 +14,13 @@
     width: 100%;
     height: 20px;
 }
-.dark input{
+.dark p{
     color:white;
 }
-.light input{
+.light p{
     color: #575757;
+}
+.done{
+    text-decoration: line-through;
+    color:grey !important;
 }

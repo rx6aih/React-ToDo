@@ -3,11 +3,12 @@ import classes from './TaskText.module.css';
 import {changeTheme} from "../../../Utils/ChangeTheme";
 const TaskText = ({theme,isDone,title}) => {
     const rootClasses = [classes.container]
-    let disabled = isDone? true : false;
+    const pClasses=[];
     changeTheme(theme,rootClasses, classes);
+    if(isDone) pClasses.push(classes.done);
     return (
         <div className={rootClasses.join(' ')}>
-            <p title={title}/>
+            <p className={pClasses.join(' ')}>{title}</p>
         </div>
     );
 };

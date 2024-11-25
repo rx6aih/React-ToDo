@@ -1,24 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import './Styles/App.css';
+import Background from "./components/UI/Background/Background";
+import {useState} from "react";
+import ToDo from "./components/ToDo/ToDo";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ToDo></ToDo>
+
   );
 }
 

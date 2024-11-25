@@ -1,9 +1,25 @@
 .ToDoHeader{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between;;
+    z-index: 1;
+    width: 30%;
+    margin-top: 4em;
 }
-.ToDoHeader-logo{
-    word-spacing: 10px;
-    font-size: 36px;
+.ToDoHeader__logo{
+    letter-spacing: 18px;
+    font-weight: 600;
+    font-size: 42px;
     color: white;
+    font-family: "DejaVu Sans";
+}
+.btn{
+    background: none;
+    border: none;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
 }

@@ -1,0 +1,22 @@
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(140, 174, 140, 0.6);
+    margin-left: 27px;
+    border-radius: 50%;
+    background: transparent;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+.done{
+    background: rgb(0,205,255);
+    background: linear-gradient(90deg, rgba(0,205,255,1) 0%, rgba(230,109,255,1) 73%);
+}
+.btn img{
+    width: 20px;
+}
+.btn:hover{
+    border: 1px solid rgba(255,100,255,1);
+}
