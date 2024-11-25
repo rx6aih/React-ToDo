@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    width: 80%;
+    height: 20px;
+    align-items:start;
+    justify-content: center;
+    margin-left: 20px;
+    background: transparent;
+}
+.container input {
+    background: transparent;
+    font-size: 18px;
+    font-family: "DejaVu Sans";
+    border: none;
+    width: 100%;
+    height: 20px;
+}
+.dark input{
+    color:white;
+}
+.light input{
+    color: #575757;
+}

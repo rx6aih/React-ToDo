@@ -1,0 +1,9 @@
+.ToDoHeader{
+    display: flex;
+    justify-content: space-between;
+}
+.ToDoHeader-logo{
+    word-spacing: 10px;
+    font-size: 36px;
+    color: white;
+}
